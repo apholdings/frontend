@@ -1,0 +1,2 @@
+export const ACCEPT_COOKIES = 'ACCEPT_COOKIES';
+export const REJECT_COOKIES = 'REJECT_COOKIES';
