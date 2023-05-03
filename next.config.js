@@ -13,19 +13,9 @@ const nextConfig = {
   },
   images: {
     domains: [
-      'boomslagauth.s3.us-east-2.amazonaws.com',
-      'boomslag.s3.us-east-2.amazonaws.com',
-      'boomslagcart.s3.us-east-2.amazonaws.com',
-      'boomslagcoupons.s3.us-east-2.amazonaws.com',
-      'boomslagcourses.s3.us-east-2.amazonaws.com',
-      'boomslagcryptocurrency.s3.us-east-2.amazonaws.com',
-      'boomslagemail.s3.us-east-2.amazonaws.com',
-      'boomslagmessages.s3.us-east-2.amazonaws.com',
-      'boomslagnotifications.s3.us-east-2.amazonaws.com',
-      'boomslagorders.s3.us-east-2.amazonaws.com',
-      'boomslagpayments.s3.us-east-2.amazonaws.com',
-      'boomslagproducts.s3.us-east-2.amazonaws.com',
       'images.unsplash.com',
+      'tailwindui.com',
+      'bafybeicgamofiuvkc6wjxl4wwzzh6pdovhcvvyc2gw5verruiolnykzz3i.ipfs.w3s.link',
     ],
   },
 };

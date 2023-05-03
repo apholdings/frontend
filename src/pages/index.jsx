@@ -1,5 +1,8 @@
 import Head from 'next/head';
 import Layout from '@/hocs/Layout';
+import Header from './components/Header';
+import Features from './components/Features';
+import Roadmap from './components/Roadmap';
 
 const SeoList = {
   title: 'SoloPython - Aprende desarrollo de software con Python',
@@ -64,7 +67,11 @@ export default function Home() {
         <meta name="twitter:player:height" content="720" />
         <meta name="twitter:player:stream" content={SeoList.video} />
       </Head>
-      <div>Home page</div>
+      <div className="dark:bg-dark-bg">
+        <Header />
+        <Features />
+        <Roadmap />
+      </div>
     </>
   );
 }
